@@ -1,7 +1,7 @@
-const arrow = document.querySelector(".card__mail-arrow");
+const arrow = document.querySelector(".section__mail-arrow");
 
 arrow.addEventListener("click", ()=>{
-  let email = document.querySelector(".card__email");
+  let email = document.querySelector(".section__email");
   if(email.value.includes(".com", "@") && email.value.length > 10){
     setTimeout(()=>{
       arrow.style.animation = "submit 3s forwards";
