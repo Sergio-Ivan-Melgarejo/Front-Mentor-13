@@ -12,11 +12,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -34,8 +30,8 @@ Users should be able to:
 
 ## It's mine
 
-![](./design/1.jpeg)
-![](./design/2.jpeg)
+![](./design/1.pmg)
+![](./design/2.png)
 
 ### Links
 
