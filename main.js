@@ -1,13 +1,14 @@
 const arrow = document.querySelector(".section__mail-arrow");
+let submit = false;
 
 arrow.addEventListener("click", ()=>{
+  if(submit) location.reload()
+
   let email = document.querySelector(".section__email");
   if(email.value.includes(".com", "@") && email.value.length > 10){
-    setTimeout(()=>{
-      arrow.style.animation = "submit 3s forwards";
-      arrow.style.cursor = "auto";
-      email.style.animation = "reset2 2s forwards";
-    },1000)
+    arrow.style.animation = "submit 2s forwards";
+    email.style.animation = "reset2 1s forwards";
+    submit = true;
     }
     else{
       email.classList.add("error");
@@ -27,9 +28,3 @@ arrow.addEventListener("click", ()=>{
       },2000);
     }
 })
-
-// plus
-
-
-
-

@@ -40,7 +40,6 @@ Users should be able to:
 ### Links
 
 - Live Site URL: [Add live site URL here](https://sergio-ivan-melgarejo.github.io/Front-Mentor-13/)
-(poner el numero correcto)
 
 ## My process
 
