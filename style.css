@@ -45,7 +45,7 @@ body{
     font-size: 3em;
     color: var(--DarkGrayishRed);
     text-transform: uppercase;
-    letter-spacing: .2em;
+    letter-spacing: .3em;
 }
 
 .section__span{
@@ -61,7 +61,6 @@ body{
 
 .section__form{
     position: relative;
-
 }
 
 .section__email{
@@ -123,25 +122,35 @@ body{
     .card{
         max-width: 1440px;
         min-height: 800px;
-        grid-template: 150px 1fr / 3fr 2fr;
+        grid-template: 150px 1fr / 2.5fr 2fr;
+        text-align: left;
     }
     .card__background{
         grid-area: 1/2/3/3;
         background: url(images/hero-desktop.jpg);
+        background-size: cover;
     }
     .card__section, .card__header{
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 18%;
+        padding-right: 30%;
+        text-align: left;
     }
-  
+    .card__logo{
+        padding: 50px 0 0 18%;
+    }
     .section__mail-arrow{
         padding: 18px 50px;
     }
-
     .icon-error{
         position: absolute;
         right: 120px;
         top: 16px;
+    }
+    .section__h1{
+        font-size: 4em;
+    }
+    .section__p{
+        padding-bottom: 20px;
     }
 }
 
