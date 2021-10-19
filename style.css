@@ -85,7 +85,7 @@ body{
     position: absolute;
     right: -2px;
     top: -1px;
-    box-shadow: 0 10px 30px var(--DesaturatedRed-0);
+    box-shadow: 0 10px 30px var(--DesaturatedRed-1);
     transition: background 400ms, box-shadow 400ms;
 }
 
@@ -118,7 +118,7 @@ body{
 }
 /*javascript*/
 
-@media screen and (min-width: 651px) {
+@media screen and (min-width: 761px) {
     .card{
         max-width: 1440px;
         min-height: 800px;
@@ -131,12 +131,12 @@ body{
         background-size: cover;
     }
     .card__section, .card__header{
-        padding-left: 18%;
+        padding-left: 10%;
         padding-right: 30%;
         text-align: left;
     }
     .card__logo{
-        padding: 50px 0 0 18%;
+        padding: 50px 0 0 10%;
     }
     .section__mail-arrow{
         padding: 18px 50px;
